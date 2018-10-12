@@ -91,6 +91,7 @@ module.exports = (env) => {
 
         // Optimization
         optimization: {
+            concatenateModules: false,
             runtimeChunk: {
                 name: 'commons',
             },
